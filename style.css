@@ -1,0 +1,67 @@
+.dropdown{
+	padding: 20px;
+	padding-left: 15px;
+	color: blue;
+	font-weight: bold;
+}
+.searchbox{
+	margin-left: 20px;
+    padding-left: 20px;
+    font-size: 15px;
+    
+}
+
+::placeholder{
+    color: blue;
+}
+input.searchbox {
+    background-color:#D3D3D300;
+    color:blue;
+}
+
+.logo{
+	margin-top: 15px;
+	margin-left: 95px;
+	cursor: pointer;
+}
+.navbar
+  { display:inline-block;
+  	
+  	
+  }
+  .fa-search{
+      color: gray;
+  }
+  .navbar ul{
+  	display: inline-flex;
+	float: right;
+  }
+  .navbar ul li{
+  	padding: 15px 35px;
+  	text-align: center;
+      cursor: pointer;
+      list-style: none;
+  }
+
+
+  .image1{
+  	margin-left: 155px;
+  	margin-bottom: 30px;
+  }
+
+  .textafterimage1{
+  	
+  }
+
+  .two-blocks{
+  	display: flex;
+  }
+
+  .h3text{
+  	font-size: 18px;
+  }
+
+  .btn-primary{
+  	padding-left: 20px;
+  	margin-left: 10px;
+  }
