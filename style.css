@@ -65,3 +65,160 @@ input.searchbox {
   	padding-left: 20px;
   	margin-left: 10px;
   }
+.second-section{
+    background-color: #F7F5F4;
+}
+
+  .second-section-heading{
+      
+      text-align: center;
+      
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .down-arrow{
+      padding-bottom:40px;
+      cursor: pointer;
+  }
+
+  .secimgs1{
+    float: left;
+  }
+
+  .secimgs2{
+      margin-top: 20px;
+  }
+  
+
+  .secimgs3{
+      margin-bottom: 100px;
+    float: right;
+  }
+  
+  .smallpara{
+      font-size: 16px;
+  }
+  .roman{
+      font-family: Lato, 'Noto Sans', sans-serif !important;
+  }
+
+  .second-para{
+      max-width: 500px;
+      font-size: 18px;
+  }
+  .small-line{
+      font-size: 12px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .teacherbtn{
+      font-size: 25px;
+  }
+  .textafterimage5{
+      max-width: 600px;
+      padding-left: 180px;
+      margin-top: 120px;
+  }
+  .learnerimg{
+      padding-right: 100px;
+      
+  }
+
+  .quote{
+      background-color: #F7F5F4;
+  }
+  .quote-para{
+      text-align: center;
+      font-size: 30px;
+      margin-left: 300px;
+      margin-right: 300px;
+  }
+  .quoteimg{
+      float: right;
+      
+  }
+  .anjali{
+      font-size: 20px;
+      margin-top: 30px;
+      margin-left: 500px;
+      
+      font-family: 'Times New Roman', Times, serif;
+  }
+  .placename{
+      font-size: 15px;
+      margin-left: 400px;
+      font-family: italic;
+  }
+  .deservebtn{
+    font-size: 18px;  
+    width: 40%;
+    height: 15%;
+  }
+  .deserve-para{
+      max-width: 500px;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 52px;
+  }
+  .image5{
+      padding-left: 150px;
+  }
+
+  .join{
+      font-size: 40px;
+      text-align: center ;
+      font-family: 'Times New Roman', Times, serif;
+  }
+  .bgbtn{
+    background-image: url("bg.PNG");
+}
+
+  .joinbtn{
+      margin-left: 550px;
+      font-size: 18px;  
+    width: 20%;
+    height: 50px;
+    text-align: center;
+  }
+
+  .footer{
+      background-color: blue;
+  }
+  .footer-para{
+      color: rgb(160, 155, 219);
+      max-width: 400px;
+      font-size: 21px;
+      float: left;
+      margin-left: 90px;
+  }
+.footer-ul-1{
+    color: white;
+    padding-left: 100px;
+    }
+.footer-ul-1 ul {
+    margin-left: 400px;
+    list-style: none;
+    max-width: 200px;
+    
+}
+.footer-ul-1 ul li{
+    color: white;
+    font-size: 13px;
+}
+.ul2{
+    float: right;
+}
+
+.footer-ul-2{
+    color: white;
+    padding-left: ;
+    float: left;
+    }
+.footer-ul-2 ul {
+    margin-left: 400px;
+    list-style: none;
+    max-width: 200px;
+    
+    
+}
+.footer-ul-2 ul li{
+    color: white;
+    font-size: 13px;
+}
