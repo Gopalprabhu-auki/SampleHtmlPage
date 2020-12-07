@@ -1,22 +1,85 @@
 .dropdown{
 	padding: 20px;
-	padding-left: 15px;
-	color: blue;
-	font-weight: bold;
+	padding-left: 55px;
+	color: #1865f2;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+    .dpbtn{
+            background-color: white;
+            font-size: 15px;
+    }
+
+    @media only screen and (max-width: 980px){
+    .dpbtn{
+        display: none;
+        padding-left: 0;
+        
+    }
+    .imgsas3{
+        align-items: center;
+    }
+    .searchbox{
+        display:none;
+    }
+    .searchicon{
+        float: center;
+    }
+
+    .two-blocks{
+        display: inline-block;
+    }
+    .images3{
+        height: 12%;
+    bottom: 10px;
+    width: 178px;
+    left: calc(50% - 75px);
+    }
+    .imganjali{
+        align-items: center;
+    }
 }
 .searchbox{
-	margin-left: 20px;
-    padding-left: 20px;
     font-size: 15px;
     
 }
 
 ::placeholder{
-    color: blue;
+    color: #1865f2;
 }
 input.searchbox {
-    background-color:#D3D3D300;
+    background-color:#4745451a;
     color:blue;
+    border-color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-style:solid;
+    
+    
+}
+@media (min-width: 992px){
+.checking{
+    width: 33.33333333%;
+    height: 50px;
+
+}
+.two-blocks{
+    display: block;
+}
+}
+.isthis{
+    font-size: 22px;
+    border-color: inherit;
+    background-color: #312f2f1a;
+    
+    
+}
+.searchicon{
+    font-size: 20px;
+    
 }
 
 .logo{
@@ -26,32 +89,38 @@ input.searchbox {
 }
 .navbar
   { display:inline-block;
-  	
-  	
-  }
+    
+  	 }
   .fa-search{
       color: gray;
   }
   .navbar ul{
   	display: inline-flex;
-	float: right;
+    float: right;
+    
   }
   .navbar ul li{
   	padding: 15px 35px;
   	text-align: center;
       cursor: pointer;
       list-style: none;
+       
+  }
+  .listnav{
+      color: #1865f2;
+      font-size: 15px;
+      
   }
 
 
   .image1{
-  	margin-left: 155px;
+  	margin-left: 0px;
   	margin-bottom: 30px;
   }
+  
 
-  .textafterimage1{
-  	
-  }
+
+  
 
   .two-blocks{
   	display: flex;
@@ -128,28 +197,28 @@ input.searchbox {
   .quote-para{
       text-align: center;
       font-size: 30px;
-      margin-left: 300px;
-      margin-right: 300px;
   }
-  .quoteimg{
-      float: right;
-      
-  }
+  
   .anjali{
       font-size: 20px;
-      margin-top: 30px;
-      margin-left: 500px;
+      text-align: right;
+      padding-top: 20px;
+
       
       font-family: 'Times New Roman', Times, serif;
+  }
+  .imganjali{
+      padding-left: -10px;
   }
   .placename{
       font-size: 15px;
       margin-left: 400px;
       font-family: italic;
   }
+  
   .deservebtn{
     font-size: 18px;  
-    width: 40%;
+    width: 50%;
     height: 15%;
   }
   .deserve-para{
@@ -157,17 +226,35 @@ input.searchbox {
       font-family: 'Times New Roman', Times, serif;
       font-size: 52px;
   }
-  .image5{
-      padding-left: 150px;
-  }
+  
 
   .join{
       font-size: 40px;
       text-align: center ;
       font-family: 'Times New Roman', Times, serif;
+
   }
   .bgbtn{
     background-image: url("bg.PNG");
+}
+@media only screen and (max-width: 980px){
+    .joinbtn{
+        
+        font-size: 18px;  
+      width: 20%;
+      height: 50px;
+      text-align: center;
+      padding-right: 500px;
+    }
+    .finallyimg{
+        width: 110%;
+    }
+    
+    .imgs{
+        padding-top: 30px;
+        padding-left: 5px;
+        align-items: center;
+    }
 }
 
   .joinbtn{
@@ -177,48 +264,129 @@ input.searchbox {
     height: 50px;
     text-align: center;
   }
+  .incsize{
+    width: 240px;
+    height: 50px;
+    font-size: 17px;
+}
+  .bfrftr{
+    background-color: #F7F5F4;
+    
+  }
+  .style-text-abv-ftr{
+      
+      color: #2D444E;
+      font-family: 'Source Serif Pro', serif;
+      font-size: 36px;
+  }
+  .padhere{
+      margin-top: 100px;
+  }
+ .imgs{
+     padding-left: 55px;
+ }
+ .hrinimg{
+     width:75%;
+     background-color: black;
+      }
 
   .footer{
-      background-color: blue;
+      background-color: #0a2a66;
+      height:650px;
+      margin-top:100px;
   }
   .footer-para{
-      color: rgb(160, 155, 219);
-      max-width: 400px;
-      font-size: 21px;
+      padding-top: 30px;
+      color:#8295BA;
+      max-width: 440px;
+      font-size: 20px;
       float: left;
       margin-left: 90px;
+      line-height: 30px;
+     
   }
-.footer-ul-1{
-    color: white;
-    padding-left: 100px;
-    }
-.footer-ul-1 ul {
-    margin-left: 400px;
-    list-style: none;
-    max-width: 200px;
+
+
+
+.n1{width: 15.66%;
+    line-height: 34px;
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
     
-}
-.footer-ul-1 ul li{
-    color: white;
-    font-size: 13px;
-}
-.ul2{
-    float: right;
 }
 
-.footer-ul-2{
-    color: white;
-    padding-left: ;
+.n1 ul{
+    padding-top: 15px;
     float: left;
-    }
-.footer-ul-2 ul {
-    margin-left: 400px;
-    list-style: none;
-    max-width: 200px;
     
     
 }
-.footer-ul-2 ul li{
+.n1 ul li{
     color: white;
-    font-size: 13px;
+    font-size: 12px;
+    list-style: none;
+    
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
 }
+.lang{
+    float: left;
+    color: rgb(143, 133, 238);
+    font-size: 12px;
+    padding-left: 90px;
+    
+}
+.eng{
+    color: white;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    padding-left: 7px;
+    float: left;
+}
+
+._jw8wag{
+    width: 26%;
+    height: auto;
+    
+}
+
+.heading-footer{
+    color: rgb(129, 129, 189);
+}
+.countryname{
+    padding-left: 5px;
+    
+}
+.country{
+    padding-top: 11px;
+}
+.footer-line{
+    width:1170px;
+    
+    
+}
+.iconsfb{
+    color:#ffffff;
+    opacity: 0.6;
+    font-size: 185%;
+    padding-left: 603px;
+    
+    
+}
+
+.cop{
+    margin-bottom: 5px;
+}
+
+.makewhite{
+    color: rgb(235, 232, 243);
+}
+
+html,body{
+    
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
+    }
+

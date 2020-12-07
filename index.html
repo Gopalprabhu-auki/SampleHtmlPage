@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Home Page</title>
+    <title>  Home Page</title>
+    <link rel="icon" href="titleimg.jpeg" type="image/icon type">
 	<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
@@ -14,48 +15,61 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <link rel="stylesheet" type="text/css" href="Style.css">
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap" rel="stylesheet">
+
+
+
 </head>
-<body>
-	<div class="row">
-		<div class="col-md-4">
+<body><header>	<div class="row ">
+		<div class="col-12 col-md-4 checking">
 			<div class="dropdown">
-  				  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b> Courses <i class="fa fa-sort-desc" aria-hidden="true"></b></i>
+  				  <button class="btn btn-secondary dropdown-toggle dpbtn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b> Courses <i class="fa fa-sort-desc" aria-hidden="true"></b></i>
   					</button>
   					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
    						<a class="dropdown-item" href="#">Course1</a>
     					<a class="dropdown-item" href="#">Course2</a>
     					<a class="dropdown-item" href="#">Course3</a>
   					</div>
-  					<input class="searchbox" type="text" placeholder="Search"><button type="submit"><i class="fa fa-search"></i></button>
+  					<input class="searchbox " type="text" placeholder="Search "><i class="fa fa-search searchicon"></i></button></button>
 
 				
 			</div>
 		</div>
-		<div class="col-md-4">
+		<div class="col-12 col-md-3 checking">
 			<div class="logo">
 			<a href="#"></a><img src="khanacademy.PNG" class="khanacademy">
         </div>
     </div>
-	<div class="col-md-4">
+	<div class="col-12 col-md-4 checking">
                 <div class="navbar">
                     <ul>
-                        <li><a href="#"><b><h4>Donate</h4></b></a></li>
-                        <li><a href="#"><b><h4>Login</h4></b></a></li>
-                        <li><a href="#t"><b><h4>Signup</h4></b></a></li>
+                        <li><a href="#" class="listnav"><b>Donate</b></a></li>
+                        <li><a href="#" class="listnav"><b>Login</b></a></li>
+                        <li><a href="#" class="listnav"><b>Signup</b></a></li>
                     </ul>
                 </div>
     </div>
 
 </div>
-<hr>
+</header>
+
+<hr class="hrline">
 
 
-
-<div class="two-blocks row">
-	<section class="image1 col">
-		<img src="image1auki.PNG">
-	</section>
-	<section class="textafterimage1 col">
+<div class="container">
+<div class="row ">
+	<div class="col-lg-6 ">
+		<img src="image1auki.PNG" class="img-fluid finallyimg">
+    </div>
+	<div class=" col-lg-6  ">
 		<p><h1><b>For every student,<br>
 every classroom.<br>
 Real results.</b></h1></p><br>
@@ -63,7 +77,7 @@ Real results.</b></h1></p><br>
 We’re a nonprofit with the mission to provide a free, world-class<br>education for anyone, anywhere.</section><br>
 
 <button type="button" class="btn btn-primary">Leaners</button><button type="button" class="btn btn-primary">Teachers</button><button type="button" class="btn btn-primary">Parents</button>
-</section></div>
+    </div></div>
     </section></div>
 <div class="second-section">   
         <div class="second-section-heading">
@@ -72,29 +86,29 @@ We’re a nonprofit with the mission to provide a free, world-class<br>education
             <h2><b>Why Khan Academy works</b></h2>
         </div>
 
-        <div class="container">
+        <div class="container ">
             <div class="row">
-              <div class="col-md-4">
-                <div class="imgfor3sec" >
-                  <img src="secondimg1.PNG">
+              <div class="col-12 col-md-4 card">
+                <div class="" >
+                  <img src="secondimg1.PNG" class="img-fluid ">
                   <div class="card-body">
                     <h3>Personalized learning</h3>
                     <p class="smallpara">Students practice at their own pace, first filling in gaps in their understanding and then accelerating their learning.</p>
                   </div>
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="imgfor3sec">
-                  <img src="secondimg2.PNG" >
+              <div class="col-12 col-md-4">
+                <div class="">
+                  <img src="secondimg2.PNG" class="img-fluid ">
                   <div class="card-body">
                     <h3 >Trusted content</h3>
                     <p class="smallpara">Created by experts, Khan Academy’s library of trusted, standards-aligned practice and lessons covers math K-12 through early college, grammar, science, history, SAT®, and more. It’s all free for learners and teachers.</p>
                   </div>
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="imgfor3sec" >
-                  <img src="secondimg3.PNG" >
+              <div class="col-12 col-md-4">
+                <div class="" >
+                  <img src="secondimg3.PNG" class="img-fluid">
                   <div class="card-body">
                     <h3>Tools to empower teachers</h3>
                     <p class="smallpara">With Khan Academy, teachers can identify gaps in their students’ understanding, tailor instruction, and meet the needs of every student.</p>
@@ -112,29 +126,29 @@ We’re a nonprofit with the mission to provide a free, world-class<br>education
 
 
 
-
-    <div class="two-blocks row">
-	<section class="image1 col">
-		<img src="bigimage2.PNG">
-    </section>
-	<section class="textafterimage1 col"><section class="roman"><p>TEACHERS</p></section>
+    <div class="container">
+    <div class=" row">
+	<div class="image1 col-md-6">
+		<img src="bigimage2.PNG" class="img-fluid finallyimg" style="height: 35em">
+    </div>
+	<div class="col-12 col-md-6  "><section class="roman"><p>TEACHERS</p></section>
 		<p><h1><b>“I’m finally able to truly differentiate my classroom. This has been priceless for my students’ engagement.”</b></h1></p><br>
         <section class="roman"><p>UDAYA LAKSHMI PALAPALA / Middle school Coordinator / Hyderabad, Telangana</p></section><br>
         <section class="second-para">
         We empower teachers to support their entire classroom. 90% of US teachers who have used Khan Academy have found us effective.</section><br>
         <section class="small-line">SOURCE: 2018 ConStat U.S. Online Education Customer Survey</section><br>
             <button type="button" class="btn btn-primary teacherbtn">Teachers,start here</button>
-        </section>
+        </div>
     </div>
     </section>
-</div>
+</div></div>
 <br><br><br><br><br><br>
 
 
-
-    <div class="two-blocks row">
+    <div class="container">
+    <div class=" row">
         
-        <section class="textafterimage5 col"><section class="roman"><p>LEARNERS AND STUDENTS</p></section>
+        <section class="col-md-6  col"><section class="roman"><p>LEARNERS AND STUDENTS</p></section>
             <p><h1><b>You can learn anything.</b></h1></p><br>
             <br>
             <section class="second-para">
@@ -145,11 +159,11 @@ We’re a nonprofit with the mission to provide a free, world-class<br>education
 
     </section>
     
-    <section class="image1 col">
-        <img class="learnerimg" src="leanersimage.PNG">
+    <section class="col-12 col-md-6 ">
+        <img  src="leanersimage.PNG" class="img-fluid finallyimg">
     </section></div>
     
-        </section>
+        </section></div>
         
     </div><br><br><br><br><br>
 
@@ -159,21 +173,22 @@ We’re a nonprofit with the mission to provide a free, world-class<br>education
 
     <div class="quote">
         <br><br><br><br><br>
-        <section class="quote-para"><p>“When I was a child, I used to fear mathematics. But now, I am in love with mathematics because of Khan Academy.”</p>
-            <section class="anjali">ANJALI<img src="quoteperson.PNG" class="quoteimg" ></section><section class="placename"><b>Gurugram,Haryana</b></section> </section>
+        <section class=" col-lg-12  quote-para text-center"><p>“When I was a child, I used to fear mathematics. But now, I am in love with mathematics because of Khan Academy.”</p></section>
+            <div class="row">
+            <div class="anjali col-lg-8 pt-3"><p>ANJALI<br>Gurugram,Haryana</p></div><div class="col-lg-4 imganjali"><img src="quoteperson.PNG" class=" img-fluid" ></div> </div>
         <br><br> <br>   <br><br> <br><br><br> <br><br><br> <br><br><br> <br>
     </div>
     <br><br> <br><br><br> <br>
 
 
 
-
-    <div class="two-blocks row">
-        <section class="image5 col">
-            <img src="deserve.PNG">
-        </section>
-        <section class="textafterimage col"><section class="roman"><p>TOGETHER WE CAN MAKE A DIFFERENCE</p></section>
-            <section class="deserve-para"><p>Every child deserves the chance to learn.</p></section><br>
+<div class="container">
+    <div class=" row">
+        <div class="col-12 col-md-6  col">
+            <img src="deserve.PNG" class="lastpadding img-fluid finallyimg">
+        </div>
+        <section class="col-12 col-md-6 textafterimage col"><div class="roman"><p>TOGETHER WE CAN MAKE A DIFFERENCE</p></div>
+            <div class="deserve-para"><p>Every child deserves the chance to learn.</p></div><br>
             
             <section class="second-para">
                 Across the globe, 617 million children are missing basic math and reading skills. We’re a nonprofit delivering the education they need, and we need your help. You can change the course of a child’s life.</section><br>
@@ -182,65 +197,143 @@ We’re a nonprofit with the mission to provide a free, world-class<br>education
     </section>
 </div>
         </section>
-    </div>
+    </div></div>
     <br><br><br><br><br><br>
     
-    <div class="bgbtn"> 
-                <section class="join">  Join Khan Academy Today</section><br><br>
-                <section class="btn btn-primary joinbtn">  Join Khan Academy Today</section><br><br>
-                 <section class="btn btn-primary joinbtn">  Join Khan Academy Today</section><br><br>
-                 <section class="btn btn-primary joinbtn">  Join Khan Academy Today</section><br><br>
-                 <section class="btn btn-primary joinbtn">  Join Khan Academy Today</section><br><br><br><br><br><br><br><br><br><br>
-                <section class="scnsht-for-now"><img src="abovefooter.PNG"></section>
+    <div class=" col-lg-12 bgbtn text-center"> 
+                <section class="join ">  Join Khan Academy Today</section><br><br>
+                <button class="btn btn-primary  incsize" >  Learners</button><br><br>
+                 <button class="btn btn-primary incsize ">  Teachers</button><br><br>
+                 <button class="btn btn-primary incsize">  Parents</button><br><br>
+                 <button class="btn btn-primary incsize">  Give Today</button><br><br><br><br><br><br><br><br><br><br>
+                
             </div>
+<div class="bfrftr">
+            <div class="container ">
+                <div class="row ">
+                    <div class="text-center style-text-abv-ftr">Key supporters</div>
+                    <div col-md-12 >
+                    <img src="img1.PNG" class="imgs"><img src="img2.PNG" class="imgs"><img src="img3.PNG" class="imgs"><img src="img4.PNG" class="imgs">
+                </div></div>
+                <div class="row ">
+                    <div col-md-12 padhere>
+                    <img src="img5.PNG" class="imgs"><img src="img6.PNG" class="imgs"><img src="img8.PNG" class="imgs"><img src="img9.PNG" class="imgs">
+                </div></div>
+                    
+                
+            </div>
+<hr class="hrinimg">
+        <div class="container bfrftr">
+            <div class="row ">
+                <div class="text-center style-text-abv-ftr">Key supporters</div>
+                <div col-md-12 >
+                <img src="img1.PNG" class="imgs"><img src="img2.PNG" class="imgs"><img src="img3.PNG" class="imgs"><img src="img4.PNG" class="imgs"></div>
+                
+            </div>
+        </div></div>
 
-      <div class="footer"><br><br>
-    <section class="footer-para"><p>Our mission is to provide a free, world-class education to anyone, anywhere.<br><br>
 
-        Khan Academy is a 501(c)(3) nonprofit organization. Donate or volunteer today!</p></section>
-        <div class="footer-ul-1">
-            <section>
+ <div class="footer"><br>
+    <div class="col-12 footer-para"><p>Our mission is to provide a free, world-class education to anyone, anywhere.<br><br>
+
+        Khan Academy is a 501(c)(3) nonprofit organization.<span class="makewhite"> Donate</span> or<span class="makewhite"> volunteer</span> today!</p>
+    </div>
+        <div class="col-lg-2 n1">
+            
             <ul>
-               <a href="#"> <li><b>About</b></li></a><br>
-               <a href="#"><li>News</li></a><br>
-               <a href="#"><li>Impact</li></a><br>
-               <a href="#"><li>Our Team</li></a><br>
-               <a href="#"><li>Our interns</li></a><br>
-               <a href="#"><li>Our Content Specialist</li></a><br>
-               <a href="#"><li>Our leadership</li></a><br>
-               <a href="#"><li>Our supporters</li></a><br>
-               <a href="#"><li>Our contributors</li></a><br>
-               <a href="#"><li>Our finances</li></a><br>
-               <a href="#"><li>Careers</li></a><br>
-               <a href="#"> <li>Internships</li></a><br>
-
-            </ul></section>
-        </div>
-        <div class="ul2"><section>
-        <div class="footer-ul-2">
-            <ul>
-               <a href="#"> <li><b>About</b></li></a><br>
-               <a href="#"><li>News</li></a><br>
-               <a href="#"><li>Impact</li></a><br>
-               <a href="#"><li>Our Team</li></a><br>
-               <a href="#"><li>Our interns</li></a><br>
-               <a href="#"><li>Our Content Specialist</li></a><br>
-               <a href="#"><li>Our leadership</li></a><br>
-               <a href="#"><li>Our supporters</li></a><br>
-               <a href="#"><li>Our contributors</li></a><br>
-               <a href="#"><li>Our finances</li></a><br>
-               <a href="#"><li>Careers</li></a><br>
+               <a href="#"> <li><b><u>About</u></b></li></a>
+               <a href="#"><li>News</li></a>
+               <a href="#"><li>Impact</li></a>
+               <a href="#"><li>Our team</li></a>
+               <a href="#"><li>Our interns</li></a>
+               <a href="#"><li>Our content specialist</li></a>
+               <a href="#"><li>Our leadership</li></a>
+               <a href="#"><li>Our supporters</li></a>
+               <a href="#"><li>Our contributors</li></a>
+               <a href="#"><li>Our finances</li></a>
+               <a href="#"><li>Careers</li></a>
                <a href="#"> <li>Internships</li></a><br>
 
             </ul>
+        </div>
         
-        </section>
+        <div class="col-lg-2 n1 vvv">
+            <ul>
+               <a href="#"> <li><b><section class="heading-footer">Contact</section></b></li></a>
+               <a href="#"><li>Help center</li></a>
+               <a href="#"><li>Support community</li></a>
+               <a href="#"><li>Share your story</li></a>
+               <a href="#"><li>Press</li></a>
+               
+               <a href="#"><li><b><section class="heading-footer">Download our apps</section></b></li></a>
+               <a href="#"><li>iOS app</li></a>
+               <a href="#"><li>Android app</li></a>
+               
+
+            </ul>
+        </div>
+
+        <div class="col-lg-3 n1">
+            <ul>
+               <a href="#"> <li><b><section class="heading-footer">Courses</section></b></li></a>
+               <a href="#"><li>Math - India</li></a>
+               <a href="#"><li>Math foundations</li></a>
+               <a href="#"><li>Math</li></a>
+               <a href="#"><li>Khan Kids, an app (ages 2-7)</li></a>
+               <a href="#"><li>Science - India</li></a>
+               <a href="#"><li><b>Science</b></li></a>
+               <a href="#"><li>Computing</li></a>
+               <a href="#"><li>Arts & humanities</li></a>
+               <a href="#"><li>Economics</li></a>
+               <a href="#"><li>Test prep</li></a>
+               <a href="#"><li>Khan for Educators</li></a>
+               
+
+            </ul>
+        </div>
+            
+        <div class="row">
+            <div class=" col-12 col-md-6">
+                <div class="lang ">Languages </div> <a href="#" class="eng"><u> English </u> <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                
+            </div>
+        </div>
+
+        <div class="row country">
+            <div class="col-12 col-md-8">
+                <section class="lang">Country </section> <a href="#" class="eng"> <img class="_jw8wag" src="https://cdn.kastatic.org/images/country-flag-icons/us-flag.png">  <span class="countryname"></span> U.S.</span></a>
+
+                  <a href="#" class="eng"> <img class="_jw8wag" src="https://cdn.kastatic.org/images/country-flag-icons/india-flag.png"><span class="countryname">India</span></a>
+                  <a href="#" class="eng"> <img class="_jw8wag" src="https://cdn.kastatic.org/images/country-flag-icons/mexico-flag.png"><span class="countryname">Mexico</span></a>
+                  <a href="#" class="eng"> <img class="_jw8wag" src="https://cdn.kastatic.org/images/country-flag-icons/brazil-flag.png"><span class="countryname">Brazil</span></a>
+            </div>
+        </div>
+
+        <hr class="footer-line">
+
+        <div class="row cop ">
+            <div class="col-md-5">
+                <section class="lang">© 2020 Khan Academy </section> <a href="#" class="eng">   <span class="countryname"></span> Term of use</span></a> <a href="#" class="eng"> <span class="countryname"> Privacy policy</span></a>
+
+            </div>
+            <div class="col-md-7">
+                <div class=" iconsfb">
+                    <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </div>
+            
+            </div>
+            
+        </div>
+        
+        
         
     </div>
     
 </div>
    
-</div>
+
       
     
 
